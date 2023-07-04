@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={expue} className="" alt="logo" />
         <h1>Expue</h1>
-        <iframe title="expue-1" style={{border: "0", width: "600px", height: "120px"}} src="https://bandcamp.com/EmbeddedPlayer/album=2476150150/size=large/bgcol=181a1b/linkcol=056cc4/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://expue.bandcamp.com/album/no-fear-in-the-abyss">No Fear In The Abyss by Expue</a></iframe>
+        <iframe className="title-player" title="expue-1" src="https://bandcamp.com/EmbeddedPlayer/album=2476150150/size=large/bgcol=181a1b/linkcol=056cc4/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://expue.bandcamp.com/album/no-fear-in-the-abyss">No Fear In The Abyss by Expue</a></iframe>
         <p className='intro'>
           <span style={{fontWeight: "bold"}}>Introducing Expue: Transcending Noise, Exploring the Depths Within</span>
           <br/>
